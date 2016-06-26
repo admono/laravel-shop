@@ -12,11 +12,17 @@
             "name": "Alejandro Mostajo",
             "email": "amostajo@gmail.com"
         }
-    ],
+    ],,
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/admono/laravel-shop-gateway-paypal.git"
+    }],
     "require": {
         "php": ">=5.5.9",
         "illuminate/console": "~5.0",
-        "illuminate/support": "~5.0"
+        "illuminate/support": "~5.0",
+        "amsgames/laravel-shop-gateway-paypal": "1.0.*"
     },
     "autoload": {
         "classmap": [
